@@ -1,0 +1,14 @@
+[project]
+name = "blog-generator"
+version = "0.1.0"
+description = "A Streamlit app that generates blog posts with Google Gemini"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain-core",
+    "langchain-google-genai",
+    "python-dotenv",
+    "streamlit",
+]
+
+[tool.uv]
+package = false
